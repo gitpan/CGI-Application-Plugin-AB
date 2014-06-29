@@ -1,0 +1,31 @@
+--- #YAML:1.0
+name:               CGI-Application-Plugin-AB
+version:            0.1
+abstract:           A/B testing for CGI::Application-based applications.
+author:
+    - Steve Kemp <steve@steve.org.uk>
+license:            unknown
+distribution_type:  module
+configure_requires:
+    ExtUtils::MakeMaker:  0
+build_requires:
+    ExtUtils::MakeMaker:  0
+requires:
+    CGI::Application:  ~
+    Redis:             ~
+    Test::More:        ~
+    Test::NoTabs:      ~
+    Test::Pod:         ~
+resources:
+    bugtracker:  https://github.com/skx/CGI--Application--Plugin--AB/issues
+    homepage:    https://github.com/skx/CGI--Application--Plugin--AB/
+    license:     http://dev.perl.org/licenses/
+    repository:  https://github.com/skx/CGI--Application--Plugin--AB.git
+no_index:
+    directory:
+        - t
+        - inc
+generated_by:       ExtUtils::MakeMaker version 6.57_05
+meta-spec:
+    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
+    version:  1.4
