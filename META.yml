@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               CGI-Application-Plugin-AB
-version:            0.2
+version:            0.3
 abstract:           A/B testing for CGI::Application-based applications.
 author:
     - Steve Kemp <steve@steve.org.uk>
